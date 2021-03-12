@@ -14,7 +14,6 @@ export class MainScreenComponent implements OnInit {
 
   ngOnInit(): void {
     this.GetListImage();
-
   }
   private GetListImage() {
     this.ImgService.GetListImageFromData().subscribe((dataImage) => {
@@ -27,7 +26,7 @@ export class MainScreenComponent implements OnInit {
     this.ImageChooded = image;
   }
   public mouseOverImage(image:ImageItem){
-console.log(image)
+     console.log(image)
   }
 
 }

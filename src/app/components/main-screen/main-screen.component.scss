@@ -49,6 +49,14 @@ body{
   .containListImage{
 
  overflow: scroll;
-        height: 262px;
+        // height: 262px;
+        height: 60vh;
   }
-
+  .alert{
+      border-radius: 0px;
+  }
+  .alert-secondary {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
