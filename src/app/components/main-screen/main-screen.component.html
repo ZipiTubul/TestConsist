@@ -34,7 +34,7 @@
         <footer>
             <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4  row-cols-xl-5 containListImage" id="style-scroll">
                 <div class="col" *ngFor="let image of ListImageFromSite">
-                    <img class="" src={{image.download_url}} (mouseover)="mouseOverImage(image)"
+                    <img class="" src={{image.download_url}}  width="222px" (mouseover)="mouseOverImage(image)"
                         class="ImageSize hvr-grow" alt="..." (click)="SetInformationImage(image)">
                 </div>
             </div>

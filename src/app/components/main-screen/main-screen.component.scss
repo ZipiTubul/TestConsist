@@ -2,8 +2,11 @@ body{
     width: 100%;
     }
 .ImageSize{
-    height: 187px;
-    width: 222px;
+    // height: 187px;
+    // width: 222px;
+    max-height: 187px;
+    width: 100%;
+    height: auto;
     margin-bottom: 8px;
 }
 .mainImage{
